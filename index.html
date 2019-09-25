@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tugas Pemrograman Web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times new roman, Helvetica, sans-serif, lato-blackitalic;
+}
+
+/* Style the header */
+header {
+  background-image: url(image/proklamasi1.jpg);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  height:260px;
+  color: #d29a82;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background:#fed5e3;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  color:black;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffbdd6;
+  font-size:50 px;
+  height: 300px;  /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+/* Style the footer */
+footer {
+  background-color: #ad4440;
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+<b style="font-family:lato-blackitalic;">
+  <h3><pre><i>	CV Online </i></pre></h3>
+</header>
+
+<section>
+  <nav>
+  <ul>
+    
+     <li> <a href="biodata1.html">Biodata Diri</a></li>
+      <li><a href="folio foto.html">Fortofolio Hasil Karya</a></li>
+	  <li><a href="form kunjungan.html">Silahkan Isi Form Kunjungan Foto</a></li>
+	  </ul>
+   <iframe src="https://aldjoistask.blogspot.com" height="190px" width="105%"></iframe><br>
+  </nav>
+  
+  <article>
+  <pre>
+    <h2><b>			Selamat Datang Di Halaman CV Saya</b></h2>
+<b><p>		Assalamualaikum Nama Saya Alda Dwi Meilinda dengan Nomor Induk Mahasiswi D1041171001.
+<p>			Saya Merupakan Mahasiswi Teknik Informatika. Tahun ajaran 2017/2018.
+			Untuk <i><b>Biodata</i></b> Lengkap Saya dapat menklik Link yang telah tersedia.<br>
+			 "Creativity its your passion, and make it happen for everyone views".</pre></p></p></h3></b>
+</section>
+
+<footer>
+  <p><b style="font-family:lato-blackitalic;"><b>Copyright@2019 by Alda Dwi M. <i> Biodata Diri</i>. Diberdayakan oleh HTML<b></p></b>
+</footer>
+
+</body>
+</html>
+
